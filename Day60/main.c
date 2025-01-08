@@ -12,6 +12,8 @@ int main() {
         return 1;
     }
 
+    
+
     grade = marks / 10;
 
     switch (grade) {
