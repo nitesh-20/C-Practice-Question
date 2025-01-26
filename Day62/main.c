@@ -27,4 +27,5 @@ int main(){
 
     removeVowels(str);
     return 0;
+    
 }
