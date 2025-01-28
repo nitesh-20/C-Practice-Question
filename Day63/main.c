@@ -7,6 +7,7 @@ int main() {
     printf("Enter a number (1-7) to get the day of the week: ");
     scanf("%d", &day);
 
+
     switch (day) {
         case 1:
             printf("Monday\n");
