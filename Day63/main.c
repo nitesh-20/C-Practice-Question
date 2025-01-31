@@ -1,6 +1,5 @@
 // Print the day of the week name using a switch case.
 #include <stdio.h>
-
 int main() {
     int day;
 
