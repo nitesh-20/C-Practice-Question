@@ -6,6 +6,7 @@ int countDigits(int number) {
     if (number < 0) {
         number = -number;
     }
+    
     do {
         count++;
         number /= 10;
