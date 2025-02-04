@@ -19,6 +19,7 @@ void merge(int arr[], int left, int mid, int right) {
         arr[i] = temp[k];
 }
 
+
 void mergeSort(int arr[], int left, int right) {
     if (left < right) {
         int mid = (left + right) / 2;
