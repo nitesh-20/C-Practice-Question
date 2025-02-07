@@ -4,6 +4,7 @@ int main() {
     int amount;
     int notes2000, notes500, notes200, notes100, notes50, notes20, notes10, notes5, notes2, notes1;
 
+
     printf("Enter the amount: ");
     scanf("%d", &amount);
 
