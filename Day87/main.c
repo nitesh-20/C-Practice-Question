@@ -18,6 +18,7 @@ int main() {
         if (arr[i] % 2 == 0) {
             evenCount++;
         } else {
+            
             oddCount++;
         }
     }
