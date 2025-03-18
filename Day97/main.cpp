@@ -1,3 +1,5 @@
+// // Write a C++ program that defines a structure Student with members roll, name, and a pointer to another structure Address. The Address structure has members street, city, and a pointer to another structure Country. The Country structure has members name and code. Create a pointer to the Student structure and use it to access and print the values of all members.
+
 #include <iostream>
 using namespace std;
 
