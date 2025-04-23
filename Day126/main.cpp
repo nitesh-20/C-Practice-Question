@@ -15,7 +15,7 @@ int main() {
     if (isPalindrome)
         cout << "Array is a palindrome.\n";
     else
-        cout << "Array is not a palindrome.\n";
+        cout << "Array is not a palindrome.\n ";
 
     return 0;
 }
