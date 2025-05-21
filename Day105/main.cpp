@@ -9,6 +9,7 @@ struct Employee{
         Employee* nextEmployee;
         int val;
     }Data;
+
 };
 int main(){
     int n;
