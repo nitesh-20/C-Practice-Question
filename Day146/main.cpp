@@ -12,6 +12,7 @@ int main() {
         sum += digit;
         num /= 10;
     }
+    
 
     cout << "Sum of digits = " << sum << endl;
 
