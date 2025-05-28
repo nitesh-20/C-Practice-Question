@@ -7,7 +7,7 @@ int main() {
     cout << "Enter a string: ";
     cin >> str;
 
-    rev = string(str.rbegin(), str.rend()); // reverse the string
+    rev = string(str.rbegin(), str.rend()); 
 
     if (str == rev)
         cout << str << " is a palindrome." << endl;
@@ -15,4 +15,6 @@ int main() {
         cout << str << " is not a palindrome." << endl;
 
     return 0;
+    
 }
+
