@@ -11,4 +11,5 @@ int main(){
         cout<< num << " is odd. "<<endl;
 
         return 0;
+        
 }
