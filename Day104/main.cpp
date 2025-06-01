@@ -6,6 +6,7 @@ struct Author{
     string name;
     int age;
 };
+
 struct Book{
     string title;
     int price;
