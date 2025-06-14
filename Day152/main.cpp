@@ -11,6 +11,7 @@ int main() {
     while (num != 0) {
         num /= 10;     
         count++;       
+        
     }
 
     cout << "Total digits: " << count << endl;
