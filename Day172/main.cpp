@@ -15,9 +15,11 @@ int main() {
     for (int i = 0; i < n; i++) {
         freq[arr[i]]++;
     }
+    
 
     cout << "Frequencies:\n";
     for (auto p : freq) {
         cout << p.first << " occurs " << p.second << " times\n";
     }
 }
+
