@@ -5,6 +5,7 @@ using namespace std;
 struct Employee{
     int ID;
     string name;
+
     union Data{
         Employee* nextEmployee;
         int val;

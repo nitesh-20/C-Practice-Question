@@ -33,6 +33,7 @@ int main() {
     adj[3] = {1};
     adj[4] = {2};
 
+    
     bfs(0, adj, n);
     return 0;
 }
