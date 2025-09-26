@@ -35,6 +35,8 @@ int main() {
     int examples[] = {2000, 1900, 2004, 2024, 2023};
     for (int ex : examples) {
         cout << ex << ": " << (isLeapYear(ex) ? "Leap" : "Not Leap") << "\n";
+
+        w;fhweoifhpbwo
     }
     
     return 0;
