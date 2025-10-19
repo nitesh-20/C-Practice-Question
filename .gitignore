@@ -1,0 +1,13 @@
+# Compiled executables
+test_program
+a.out
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Build directories
+build/
+dist/
