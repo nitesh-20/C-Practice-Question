@@ -1,5 +1,5 @@
 //Create a structure Employee with members id, name, and a pointer to the next employee. Using pointers and dynamic memory allocation, build a linked list of 3 employees. Prompt the user to input each employee’s ID and name, link them into a list, and then print all employee details in the order they were entered.
-
+//hi
 #include<iostream>
 using namespace std;
 struct Employee{

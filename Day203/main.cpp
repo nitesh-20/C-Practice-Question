@@ -17,6 +17,8 @@ int main() {
     cout << "Enter " << n << " elements:\n";
     for (int i = 0; i < n; ++i) cin >> a[i];
 
+
+    
     cout << "Enter k: ";
     int k;
     cin >> k;
