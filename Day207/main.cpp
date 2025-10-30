@@ -14,6 +14,8 @@ long long mergeCount(vector<int>& a, int l, int m, int r) {
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) a[k++] = L[i++];
         else {
+
+            
             a[k++] = R[j++];
             inv += (n1 - i); // all remaining in L are inversions
         }
