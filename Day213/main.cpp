@@ -18,6 +18,7 @@ int main() {
     vector<int> coins(n);
     cout << "Enter " << n << " coin values:\n";
     for (int i = 0; i < n; ++i) {
+        
         cin >> coins[i];
         if (coins[i] <= 0) {
             cout << "Invalid coin value: " << coins[i] << "\n";
