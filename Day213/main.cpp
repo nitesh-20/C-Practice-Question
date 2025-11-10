@@ -16,6 +16,8 @@ int main() {
     if (!(cin >> n) || n <= 0) return 0;
 
     vector<int> coins(n);
+
+    
     cout << "Enter " << n << " coin values:\n";
     for (int i = 0; i < n; ++i) {
         
