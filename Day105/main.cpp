@@ -4,6 +4,7 @@
 using namespace std;
 struct Employee{
     int ID;
+
     string name;
 
     union Data{
