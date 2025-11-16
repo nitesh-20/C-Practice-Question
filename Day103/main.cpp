@@ -5,6 +5,7 @@
 using namespace std;
 
 
+
 struct Student {
     int roll;
     char name[50];
