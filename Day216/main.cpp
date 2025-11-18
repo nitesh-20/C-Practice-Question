@@ -13,6 +13,7 @@ vector<int> slidingWindowMaximum(const vector<int>& arr, int k) {
     
     for (int i = 0; i < n; ++i) {
         // Remove indices outside current window
+        
         while (!dq.empty() && dq.front() <= i - k) {
             dq.pop_front();
         }
