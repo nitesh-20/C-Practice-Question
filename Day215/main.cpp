@@ -17,6 +17,7 @@ int main() {
         cout << "Need at least 2 matrices\n";
         return 0;
     }
+    
 
     vector<int> p(n + 1);
     cout << "Enter " << (n + 1) << " dimensions (p0, p1, ..., p" << n << "):\n";
