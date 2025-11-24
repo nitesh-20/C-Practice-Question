@@ -21,6 +21,7 @@ int main() {
 
     vector<int> p(n + 1);
     cout << "Enter " << (n + 1) << " dimensions (p0, p1, ..., p" << n << "):\n";
+    
     cout << "Matrix i has dimensions p[i-1] x p[i]\n";
     for (int i = 0; i <= n; ++i) {
         cin >> p[i];
