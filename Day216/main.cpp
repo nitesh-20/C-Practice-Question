@@ -21,6 +21,7 @@ vector<int> slidingWindowMaximum(const vector<int>& arr, int k) {
         // Remove indices whose values are smaller than current element
         while (!dq.empty() && arr[dq.back()] <= arr[i]) {
             dq.pop_back();
+            
         }
         
         dq.push_back(i);
