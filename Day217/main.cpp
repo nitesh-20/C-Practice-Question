@@ -19,6 +19,7 @@ void backtrack(int idx, const vector<int>& nums, vector<int>& current, vector<ve
 
 int main() {
     ios::sync_with_stdio(false);
+    
     cin.tie(nullptr);
 
     cout << "Subsets (Power Set) Generator\n";

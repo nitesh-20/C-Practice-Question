@@ -2,6 +2,7 @@
 
 #include<iostream>
 using namespace std;
+
 struct Author{
     string name;
     int age;
