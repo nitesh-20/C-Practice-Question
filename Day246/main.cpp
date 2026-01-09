@@ -5,7 +5,8 @@
 // Place N queens on an N x N chessboard so that no two queens attack each other.
 // Backtracking solution: prints all possible solutions for given N (N <= ~12 recommended).
 
-bool isSafe(const std::vector<int> &queens, int row, int col) {
+bool isSafe(const std::vector<int> &queens, int row, int
+     col) {
     // queens[i] = column of queen in row i
     for (int r = 0; r < row; ++r) {
         int c = queens[r];
