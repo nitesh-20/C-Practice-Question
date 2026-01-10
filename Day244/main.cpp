@@ -16,9 +16,11 @@ int main() {
 
     int n, m;
     std::cout << "Enter number of rows: ";
+
     std::cin >> n;
     std::cout << "Enter number of columns: ";
     std::cin >> m;
+    
 
     if (n <= 0 || m <= 0) {
         std::cout << "Invalid dimensions. Exiting.\n";
