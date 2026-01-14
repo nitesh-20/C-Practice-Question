@@ -7,11 +7,14 @@ using namespace std;
 // We build a simple binary tree and print its top view using BFS
 
 struct Node {
+
+
     int val;
     Node *left;
     Node *right;
     Node(int v) : val(v), left(nullptr), right(nullptr) {}
 };
+
 
 Node* insertBST(Node* root, int val) {
     if (!root) return new Node(val);
