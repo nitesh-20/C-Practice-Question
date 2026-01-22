@@ -18,6 +18,7 @@ bool canShip(const vector<int> &w, int D, int cap) {
         } else {
             ++days;
             cur = x;
+            
             if (days > D) return false;
         }
     }
