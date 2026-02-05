@@ -23,12 +23,14 @@ void levelOrder(Node* root) {
     if (!root) return;
     queue<Node*> q;
     q.push(root);
+
     cout << "Level-order traversal: ";
     while (!q.empty()) {
         Node* cur = q.front();
         q.pop();
         cout << cur->val << ' ';
         if (cur->left) q.push(cur->left);
+        
         if (cur->right) q.push(cur->right);
     }
     cout << '\n';
