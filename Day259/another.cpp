@@ -39,8 +39,10 @@ int main() {
         int x; cin >> x;
         int idx = binary_search_idx(a, x);
         if (idx == -1) cout << "Not found\n";
+        
         else cout << idx << '\n';
     }
+
 
     return 0;
 }
