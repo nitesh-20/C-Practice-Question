@@ -15,9 +15,11 @@ int main() {
     cin.tie(nullptr);
 
     int n;
+    
     if (!(cin >> n)) return 0;
     vector<long long> a(n);
     for (int i = 0; i < n; ++i) cin >> a[i];
+
 
     // tail[i] will hold the smallest possible tail value of an increasing
     // subsequence of length i+1. tail_idx stores the original index.
