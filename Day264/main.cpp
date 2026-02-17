@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 // Longest Increasing Subsequence (LIS) - O(n log n) with reconstruction
 // Input:
