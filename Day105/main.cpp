@@ -2,8 +2,10 @@
 //hi
 #include<iostream>
 using namespace std;
+
 struct Employee{
     int ID;
+
 
     string name;
 
