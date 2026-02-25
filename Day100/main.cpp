@@ -6,6 +6,8 @@ struct employee{
     char name[30];
     float salary;
 };
+
+
 int main(){
     struct employee emp[3];
     struct employee *ptr=emp;
