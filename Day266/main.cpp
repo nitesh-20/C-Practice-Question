@@ -41,6 +41,7 @@ using namespace std;
 
 void bfs_traversal() {
 	int n, m;
+	
 	if (!(cin >> n >> m)) return;
 	vector<vector<int>> adj(n + 1);
 	for (int i = 0; i < m; ++i) {
