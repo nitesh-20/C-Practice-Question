@@ -10,11 +10,13 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);
 
+
 	cout << "Enter count of numbers (n): ";
 	long long n;
 	if (!(cin >> n) || n <= 0) {
 		cerr << "Invalid count. Please enter a positive integer.\n";
 		return 1;
+		
 	}
 
 	vector<long long> a;
