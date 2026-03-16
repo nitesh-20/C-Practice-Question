@@ -13,6 +13,7 @@ unsigned long long factorial(unsigned int n) {
 }
 
 bool isPrime(unsigned long long n) {
+	
 	if (n < 2) return false;
 	if (n % 2 == 0) return n == 2;
 	for (unsigned long long i = 3; i * i <= n; i += 2)
