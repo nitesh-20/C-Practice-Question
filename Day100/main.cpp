@@ -4,6 +4,8 @@ using namespace std;
 struct employee{
     int id;
 
+
+
     char name[30];
     float salary;
 };
