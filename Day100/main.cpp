@@ -8,6 +8,7 @@ struct employee{
 
     char name[30];
     float salary;
+
 };
 
 
