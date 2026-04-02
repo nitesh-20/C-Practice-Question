@@ -14,9 +14,10 @@ int lengthOfLongestSubstring(string s) {
 
 int main() {
     string s1 = "abcabcbb";
-    
+
     string s2 = "bbbbb";
     string s3 = "pwwkew";
+    
     
     cout << "Input: " << s1 << " | Output: " << lengthOfLongestSubstring(s1) << " (Expected: 3)" << endl;
     cout << "Input: " << s2 << " | Output: " << lengthOfLongestSubstring(s2) << " (Expected: 1)" << endl;
