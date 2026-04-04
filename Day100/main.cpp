@@ -20,6 +20,7 @@ int main(){
         cout<<"Enter details for employee "<<i+1<<endl;
         cout<<"Enter id: ";
         cin>>ptr[i].id;
+        
         cout<<"Enter name: ";
         cin>>ptr[i].name;
         cout<<"Enter salary: ";
