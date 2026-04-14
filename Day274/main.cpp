@@ -11,6 +11,7 @@ int maxArea(vector<int>& height) {
     return 0;
 }
 
+
 int main() {
     vector<int> h1 = {1,8,6,2,5,4,8,3,7};
     vector<int> h2 = {1,1};
