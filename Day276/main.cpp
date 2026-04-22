@@ -10,6 +10,7 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         unordered_map<char, int> charIndexMap;
+        
         int maxLength = 0;
         int left = 0;
 
