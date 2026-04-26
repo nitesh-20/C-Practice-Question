@@ -6,6 +6,7 @@ using namespace std;
 
 // Function to find the maximum contiguous subarray sum (Kadane's Algorithm)
 int maxSubArraySum(const vector<int>& nums) {
+    
     int max_so_far = nums[0];
     int current_max = nums[0];
 
@@ -28,5 +29,7 @@ int main() {
     int max_sum = maxSubArraySum(nums);
     cout << "Maximum contiguous subarray sum is: " << max_sum << endl;
 
+
     return 0;
+
 }
