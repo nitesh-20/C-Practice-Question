@@ -12,6 +12,7 @@ struct Node {
     
     Node(int val) {
         data = val;
+        
         left = right = nullptr;
     }
 };
